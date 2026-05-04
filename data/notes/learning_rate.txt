@@ -1,0 +1,17 @@
+Learning rate controls how big the weight updates are during training.
+
+Too high:
+- Model diverges
+- Loss jumps around
+
+Too low:
+- Training is slow
+- Model may get stuck
+
+Learning rate schedules:
+- Step decay
+- Exponential decay
+- Cosine annealing
+- Warm restarts
+
+Choosing the right learning rate is critical.
