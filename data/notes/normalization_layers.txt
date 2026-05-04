@@ -1,0 +1,9 @@
+Normalization stabilizes training by keeping activations in a healthy range.
+
+Types:
+- BatchNorm
+- LayerNorm
+- GroupNorm
+
+Transformers use LayerNorm.
+CNNs often use BatchNorm.
