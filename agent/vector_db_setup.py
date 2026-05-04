@@ -1,5 +1,6 @@
 import os
 import faiss
+import numpy as np
 from embeddings_setup import embed_text
 
 # Path to your notes folder
