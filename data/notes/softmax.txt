@@ -1,0 +1,11 @@
+Softmax converts raw logits into probabilities.
+
+Formula:
+exp(x_i) / sum(exp(x_j))
+
+Used in:
+- Multi-class classification
+- Attention weights
+- Language models
+
+Ensures outputs sum to 1.
