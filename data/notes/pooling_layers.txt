@@ -1,0 +1,9 @@
+Pooling reduces spatial dimensions in CNNs.
+
+Types:
+- Max pooling: keeps strongest feature.
+- Average pooling: averages values.
+- Global pooling: reduces entire feature map to one value.
+
+Purpose:
+Reduce computation, control overfitting, keep important features.
