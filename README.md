@@ -112,6 +112,27 @@ Explains gradient descent using your notes + TinyLlama.
 
 ---
 
+## 📚 Knowledge Base Files
+
+The Study Agent uses Retrieval-Augmented Generation (RAG) to answer questions based on my own course notes.  
+All source documents are included in the `data/notes/` folder. Each `.txt` file contains short, student-friendly explanations of deep learning topics such as CNNs, RNNs, Transformers, and optimization algorithms.
+
+If the dataset grows too large in future versions, it will be hosted externally (e.g., Google Drive or Hugging Face Datasets).  
+For this submission, all sample notes are included locally for transparency.
+
+---
+
+| File Name | Topic |
+|------------|--------|
+| gradient_descent.txt | Optimization algorithm |
+| cnn_layers.txt | Convolutional neural networks |
+| transformers.txt | Self-attention and sequence modeling |
+| regularization.txt | Overfitting prevention |
+| gans.txt | Generative Adversarial Networks |
+| reinforcement_learning_basics.txt | Agent-environment interaction |
+
+---
+
 ## 🔮 Planned Future Enhancements
 
 This project is designed to grow. Below are features I may add in future versions:
