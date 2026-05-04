@@ -1,0 +1,10 @@
+Gradient clipping prevents gradients from becoming too large.
+
+Why:
+Exploding gradients can destabilize training, especially in RNNs.
+
+Methods:
+- Norm clipping
+- Value clipping
+
+Keeps training stable.
