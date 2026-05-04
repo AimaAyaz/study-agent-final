@@ -1,11 +1,20 @@
-# agent_loop.py
-# This file will run the full agent pipeline.
-
 from answer_function import generate_answer
 
 def main():
-    query = input("Ask something: ")
-    print(generate_answer(query, None))
+    print("Study Agent is ready!")
+    
+    while True:
+        query = input("\nAsk something (or type 'exit'): ")
+
+        if query.lower() == "exit":
+            print("Goodbye!")
+            break
+
+        print("\nThinking...\n")
+        answer = generate_answer(query)
+        print("ANSWER:\n")
+        print(answer)
+        print("\n" + "-"*50)
 
 if __name__ == "__main__":
     main()
