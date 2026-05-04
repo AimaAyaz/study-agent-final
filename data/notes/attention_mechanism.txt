@@ -1,0 +1,9 @@
+Attention lets a model focus on the most important parts of the input.
+
+Key idea:
+Instead of treating all tokens equally, attention assigns weights.
+
+Benefits:
+- Captures long-range dependencies
+- Improves translation, summarization, Q&A
+- Core of the Transformer architecture
