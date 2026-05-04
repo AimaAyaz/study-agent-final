@@ -1,0 +1,13 @@
+Reinforcement learning trains an agent to take actions in an environment.
+
+Key terms:
+- Agent
+- Environment
+- Reward
+- Policy
+- Value function
+
+Goal:
+Maximize cumulative reward.
+
+Used in robotics, games, and control systems.
