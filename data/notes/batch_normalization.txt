@@ -1,0 +1,9 @@
+Batch normalization normalizes activations inside the network to stabilize training.
+
+Benefits:
+- Faster training
+- Helps gradients flow better
+- Reduces internal covariate shift
+- Acts like regularization
+
+Used in CNNs, MLPs, and sometimes RNNs.
