@@ -14,7 +14,7 @@ def run_llm(prompt: str) -> str:
     inputs = tokenizer(prompt, return_tensors="pt")
     output = model.generate(
         **inputs,
-        max_new_tokens=200,
+        max_new_tokens=60,   # SHORT ANSWERS
         temperature=0.7
     )
     return tokenizer.decode(output[0], skip_special_tokens=True)
