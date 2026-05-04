@@ -1,0 +1,8 @@
+Convolution applies a filter over an image to detect patterns.
+
+Key terms:
+- Kernel/filter
+- Stride
+- Padding
+
+Used to detect edges, textures, shapes in CNNs.
