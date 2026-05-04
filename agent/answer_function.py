@@ -8,7 +8,7 @@ def generate_answer(query: str):
     """Full pipeline: retrieve notes + run LLM."""
     
     # 1. Retrieve relevant notes
-    retrieved_notes = search_vector_db(query, index, notes, filenames, k=3)
+    retrieved_notes = search_vector_db(query, index, notes, filenames, k=1)
 
     # 2. Build the LLM prompt
     context_block = "\n\n".join(retrieved_notes)
@@ -28,7 +28,7 @@ QUESTION:
 ANSWER:
 """
 
-    # 3. Run the LLM
+    # 3. Run the LLM (short output)
     response = run_llm(prompt)
 
     return response
