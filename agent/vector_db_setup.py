@@ -33,7 +33,7 @@ def build_vector_db():
     return index, notes, filenames
 
 
-def search_vector_db(query, index, notes, filenames, k=3):
+def search_vector_db(query, index, notes, filenames, k=1):
     """Search for the top-k most relevant notes."""
     query_vec = embed_text(query)
     query_vec = np.array([query_vec]).astype("float32")
