@@ -1,0 +1,9 @@
+Multi-head attention allows the model to focus on different parts of the input simultaneously.
+
+Each head:
+- Learns different relationships
+- Captures different patterns
+
+Benefits:
+- Better representation learning
+- Core component of Transformers
