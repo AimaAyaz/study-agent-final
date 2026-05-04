@@ -34,7 +34,7 @@ Below is the architecture diagram for the Study Agent, adapted from my Midterm B
 <img width="340" height="508" alt="image" src="https://github.com/user-attachments/assets/9849694d-58eb-445a-be19-9939560e49ef" />
 
 ---
-
+```markdown
 ## 📂 Project Structure
 
 study-agent-final/
@@ -80,8 +80,7 @@ study-agent-final/
 │
 ├── README.md
 └── REFLECTION.md
-
-```markdown
+```
 
 
 
