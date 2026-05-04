@@ -1,0 +1,10 @@
+Transformers have no recurrence, so they need positional encoding.
+
+Purpose:
+Tell the model the order of tokens.
+
+Types:
+- Sinusoidal (original Transformer)
+- Learnable embeddings
+
+Allows the model to understand sequence structure.
