@@ -1,5 +1,8 @@
-# embeddings_setup.py
-# This file will handle embedding creation.
+from sentence_transformers import SentenceTransformer
 
-def embed_text(text):
-    return [0.0] * 384  # placeholder vector
+# Load a real embedding model
+model = SentenceTransformer("all-MiniLM-L6-v2")
+
+def embed_text(text: str):
+    """Return a vector embedding for the given text."""
+    return model.encode(text).tolist()
