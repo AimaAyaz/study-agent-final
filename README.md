@@ -40,28 +40,45 @@ Below is the architecture diagram for the Study Agent, adapted from my Midterm B
 study-agent-final/
 │
 ├── agent/
-│   ├── agent_loop.py
-│   ├── answer_function.py
-│   ├── embeddings_setup.py
-│   ├── vector_db_setup.py
-│   ├── local_llm_setup.py
-│   └── tools.py
-│
 ├── data/
 │   └── notes/
-│       ├── gradient_descent.txt
+│       ├── activation_functions.txt
+│       ├── backpropagation.txt
+│       ├── batch_normalization.txt
 │       ├── cnn_layers.txt
-│       └── transformers.txt
-│
-├── demo/
-│   └── demo_script.md
+│       ├── gradient_descent.txt
+│       ├── learning_rate.txt
+│       ├── overfitting.txt
+│       ├── regularization.txt
+│       ├── rnn_vs_lstm.txt
+│       ├── transformers.txt
+│       ├── optimizers.txt
+│       ├── loss_functions.txt
+│       ├── attention_mechanism.txt
+│       ├── pooling_layers.txt
+│       ├── dropout.txt
+│       ├── gradient_clipping.txt
+│       ├── epochs_batches_iterations.txt
+│       ├── convolution_operation.txt
+│       ├── normalization_layers.txt
+│       ├── vanishing_gradients.txt
+│       ├── gru.txt
+│       ├── residual_connections.txt
+│       ├── softmax.txt
+│       ├── cross_entropy.txt
+│       ├── multihead_attention.txt
+│       ├── positional_encoding.txt
+│       ├── autoencoders.txt
+│       ├── gans.txt
+│       ├── reinforcement_learning_basics.txt
+│       ├── dropout_vs_batchnorm.txt
 │
 ├── docs/
-│   ├── final_writeup.md
-│   └── architecture_diagram.png
+│   └── architecture.png
 │
-├── requirements.txt
-└── README.md
+├── README.md
+└── REFLECTION.md
+
 
 
 ---
