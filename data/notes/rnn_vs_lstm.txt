@@ -1,0 +1,14 @@
+RNNs and LSTMs are neural networks for sequence data.
+
+RNN:
+- Simple recurrent structure
+- Suffers from vanishing gradients
+- Hard to learn long-term dependencies
+
+LSTM:
+- Uses gates (input, forget, output)
+- Stores long-term memory
+- Solves vanishing gradient problem
+- Better for long sequences
+
+LSTMs are generally preferred over basic RNNs.
