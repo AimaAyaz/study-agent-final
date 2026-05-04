@@ -1,0 +1,10 @@
+Regularization helps prevent overfitting by adding a penalty to large weights.
+
+Types:
+- L1 regularization: encourages sparsity.
+- L2 regularization: discourages large weights.
+- Dropout: randomly turns off neurons during training.
+- Early stopping: stop training when validation loss increases.
+
+Purpose:
+Keep the model simple and stable.
