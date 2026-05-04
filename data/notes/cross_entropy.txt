@@ -1,0 +1,10 @@
+Cross-entropy measures the difference between predicted probabilities and true labels.
+
+Binary cross-entropy:
+Used for 2 classes.
+
+Categorical cross-entropy:
+Used for multi-class tasks.
+
+Goal:
+Minimize the distance between predicted distribution and true distribution.
