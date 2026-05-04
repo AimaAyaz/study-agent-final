@@ -1,0 +1,10 @@
+Dropout randomly turns off neurons during training.
+
+Why:
+Prevents overfitting by forcing the network to learn robust features.
+
+Typical rates:
+0.2 to 0.5
+
+Used in:
+MLPs, CNNs, RNNs, Transformers.
