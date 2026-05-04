@@ -1,0 +1,10 @@
+Optimizers update the weights of a neural network based on gradients.
+
+Common optimizers:
+- SGD: simple, stable, slower.
+- Momentum: adds velocity to updates.
+- RMSProp: adapts learning rate per parameter.
+- Adam: combines Momentum + RMSProp, most widely used.
+
+Goal:
+Find the best direction and step size to minimize loss.
