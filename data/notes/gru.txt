@@ -1,0 +1,12 @@
+GRU (Gated Recurrent Unit) is a simplified version of LSTM.
+
+Key gates:
+- Update gate: decides how much past info to keep.
+- Reset gate: decides how much past info to forget.
+
+Benefits:
+- Faster than LSTM
+- Fewer parameters
+- Good for sequence tasks
+
+Used in NLP, time series, and speech models.
