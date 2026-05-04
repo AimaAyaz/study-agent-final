@@ -27,6 +27,14 @@ This project mirrors the structure and workflow of a real AI engineering pipelin
 
 ---
 
+## 🧩 Architecture Diagram
+
+Below is the architecture diagram for the Study Agent, adapted from my Midterm Blueprint and updated to reflect the final implementation.
+
+<img width="340" height="508" alt="image" src="https://github.com/user-attachments/assets/9849694d-58eb-445a-be19-9939560e49ef" />
+
+---
+
 ## 📂 Project Structure
 
 study-agent-final/
