@@ -1,0 +1,14 @@
+Autoencoders compress data into a smaller representation and reconstruct it.
+
+Parts:
+- Encoder: compresses input
+- Decoder: reconstructs input
+
+Uses:
+- Dimensionality reduction
+- Denoising
+- Anomaly detection
+- Pretraining
+
+Variations:
+- Variational Autoencoders (VAE)
