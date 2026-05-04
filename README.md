@@ -146,6 +146,7 @@ Additional features and UI enhancements may be added in future updates.
 ## 👤 Author
 **Aima Ayaz**  
 W216981450@student.hccs.edu
+
 AI Student • ML Engineer in Training  
 Houston, TX
 
