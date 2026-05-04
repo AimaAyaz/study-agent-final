@@ -73,11 +73,15 @@ study-agent-final/
 │       ├── reinforcement_learning_basics.txt
 │       ├── dropout_vs_batchnorm.txt
 │
+├── demo/
+│   └── youtube link
 ├── docs/
 │   └── architecture.png
 │
 ├── README.md
 └── REFLECTION.md
+
+```markdown
 
 
 
@@ -162,6 +166,10 @@ This project is designed to grow. Below are features I may add in future version
 - Explain Like I’m 5 mode (`eli5: backpropagation`)
 - Summarize PDF mode (upload → extract → embed)
 - Quiz Me mode (auto‑generate quizzes from notes)
+- add a “short answer mode” toggle
+- add a “bullet‑point mode”
+- add a “one‑sentence mode”
+
 
 ### ⭐ App Packaging
 - Streamlit web app
@@ -171,6 +179,14 @@ This project is designed to grow. Below are features I may add in future version
 - pip‑installable package (`pip install study-agent`)
 
 These upgrades will transform the Study Agent from a terminal tool into a full AI application.
+
+---
+
+## 🎥 Demo Video
+
+The demo below shows the Study Agent handling three real-world scenarios.
+
+▶️ https://youtu.be/V3oWfrqrHqs 
 
 ---
 
