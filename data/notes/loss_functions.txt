@@ -1,0 +1,9 @@
+Loss functions measure how wrong the model's predictions are.
+
+Common losses:
+- MSE: regression tasks.
+- Cross-entropy: classification tasks.
+- Binary cross-entropy: binary classification.
+- Hinge loss: SVMs.
+
+The optimizer tries to minimize the loss.
