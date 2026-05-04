@@ -1,0 +1,10 @@
+Activation functions introduce non-linearity into neural networks. Without them, the network would behave like a simple linear model.
+
+Common activation functions:
+- ReLU: max(0, x). Fast and widely used.
+- Sigmoid: squashes values between 0 and 1. Used in binary classification.
+- Tanh: outputs between -1 and 1. Zero-centered.
+- Softmax: converts logits into probabilities for multi-class classification.
+
+Why needed:
+They help the network learn complex patterns.
