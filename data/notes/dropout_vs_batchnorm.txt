@@ -1,0 +1,11 @@
+Dropout:
+- Randomly disables neurons
+- Prevents overfitting
+- Adds noise during training
+
+BatchNorm:
+- Normalizes activations
+- Stabilizes training
+- Allows higher learning rates
+
+Both improve generalization but in different ways.
