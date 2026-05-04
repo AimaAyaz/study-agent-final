@@ -1,0 +1,12 @@
+Vanishing gradients occur when gradients become too small to update weights.
+
+Happens in:
+- Deep networks
+- RNNs with long sequences
+- Sigmoid/tanh activations
+
+Solutions:
+- ReLU
+- LSTM/GRU
+- Residual connections
+- BatchNorm
