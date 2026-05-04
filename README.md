@@ -71,6 +71,7 @@ Extract it fully (don’t run from inside the ZIP).
 ### 2️⃣ Open CMD inside the extracted folder
 In File Explorer:
 
+- Double click the extracted folder (all files will be listed) 
 - Click the address bar  
 - Type: `cmd`  
 - Press Enter  
