@@ -1,0 +1,7 @@
+Epoch: one full pass through the dataset.
+Batch: a small subset of data used for one update.
+Iteration: one update step.
+
+Example:
+1000 samples, batch size 100:
+- 1 epoch = 10 iterations
