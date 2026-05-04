@@ -1,0 +1,11 @@
+Residual connections allow gradients to flow through deep networks.
+
+Idea:
+Instead of learning H(x), the network learns F(x) + x.
+
+Benefits:
+- Solves vanishing gradients
+- Enables very deep networks (ResNet)
+- Improves training stability
+
+Used in CNNs and Transformers.
