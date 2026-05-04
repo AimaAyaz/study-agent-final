@@ -1,0 +1,15 @@
+GANs (Generative Adversarial Networks) consist of two networks:
+
+Generator:
+Creates fake data.
+
+Discriminator:
+Tries to detect fake data.
+
+Training is a game:
+Generator tries to fool the discriminator.
+
+Used for:
+- Image generation
+- Style transfer
+- Super-resolution
