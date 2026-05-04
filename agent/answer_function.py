@@ -13,7 +13,11 @@ def generate_answer(query: str):
     # 2. Build the LLM prompt
     context_block = "\n\n".join(retrieved_notes)
     prompt = f"""
-You are a helpful study assistant. Use the notes below to answer the question.
+You are a helpful study assistant. 
+Give a short, simple 2–3 sentence answer. 
+Do NOT add extra details. 
+Use only the most relevant note.
+
 
 NOTES:
 {context_block}
