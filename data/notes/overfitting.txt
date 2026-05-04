@@ -1,0 +1,15 @@
+Overfitting happens when a model learns the training data too well, including noise, and performs poorly on new data.
+
+Signs:
+- Training accuracy high
+- Validation accuracy low
+
+Ways to reduce overfitting:
+- More data
+- Regularization (L1, L2)
+- Dropout
+- Early stopping
+- Data augmentation
+
+Goal:
+Make the model generalize to unseen data.
